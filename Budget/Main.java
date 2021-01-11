@@ -1,0 +1,20 @@
+b=int(input())
+v=int(input())
+aud=int(input())
+a=int(input())
+l=int(input())
+result=15000
+blast=350.34
+visual=230.90
+audit=190.55
+arm=125.30
+leg=180.90
+bres=blast*b
+vres=visual*v
+aures=audit*aud
+armres=a*arm
+legres=l*leg
+if(bres+vres+aures+armres+legres<15000):
+  print("Yes")
+else:
+  print("No")
